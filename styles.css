@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap');
 
 body {
+    margin: 0;
+    padding: 51px 0 33px;
+    padding-bottom: 51px;
     color: #000000;
     font-family: "Roboto Mono";
     font-size: 13px;
-    font-weight: 400;
 }
 div {
     display: block;
     box-sizing: border-box;
 }
-p {
+p, h3 {
     margin: 0;
 }
 .wrapper {
-    max-width: 700px;
+    max-width: 900px;
     width: 90%;
     margin: 0 auto;
-    padding: 36pt 0;
 }
 .row {
     width: 100%;
     display: flex;
-    gap: 51px;
+    gap: 21px;
 }
 .col-small  {
-    flex-basis: 220px;
+    flex-basis: 180px;
 }
 .col-large {
-    flex-basis: calc(100% - 220px);
+    flex-basis: calc(100% - 180px);
 }
 .info-box p {
     max-width: 300px;
@@ -36,35 +37,38 @@ p {
 .page-title {
     font-family: "Press Start 2P";
     color: #ea9999;
+    font-size: 26px;
     font-weight: 700;
-    font-size: 34px;
+    letter-spacing: 0.3px;
 }
 .page-subtitle {
     max-width: 230px;
-    margin-top: 18px;
-    font-size: 20px;
+    margin-top: 4px;
+    font-size: 12px;
 }
 .divider {
-    margin: 24px 0;
-    font-size: 20px;
+    margin: 13px 0;
+    font-size: 16px;
     font-weight: 700;
     color: #0000ff;
 }
 
 .subhead {
     margin-top: 0;
-    margin-bottom: 16px;
-    font-size: 16px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    letter-spacing: 0.6px;
 }
 
 .col-group {
     margin-top: 12px;
-    max-width: 560px;
+    max-width: 760px;
 }
 
 label {
     display: block;
     margin-bottom: 4px;
+    letter-spacing: 0.23px;
     text-transform: uppercase;
 }
 h3 {
@@ -77,12 +81,10 @@ h3 {
 }
 .text-medium {
     font-size: 11px;
+    letter-spacing: -0.57px;
 }
 .text-small {
     font-size: 10px;
-}
-.mt-10 {
-    margin-top: 10px;
 }
 .list {
     max-width: 300px;
