@@ -52,6 +52,7 @@ p {
 }
 
 .subhead {
+    margin-top: 0;
     margin-bottom: 16px;
     font-size: 16px;
 }
