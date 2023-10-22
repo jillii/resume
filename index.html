@@ -2,6 +2,7 @@
     <head>
         <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <div class="wrapper">
@@ -15,38 +16,38 @@
                 </div>
             </div>
             <p class="divider">&#12336;</p>
-            <div class="row">
+            <div id="info" class="row">
                 <div class="col col-small">
                     <h2 class="subhead">Info</h2>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#info">
                         <label class="text-gray text-small">CONTACT</label>
                         <p>201-562-5969</p>
                         <p>jho3292@gmail.com</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-anchor="#info">
                         <label class="text-gray text-small">REPOS</label>
                         <p>gitlab.com/jillii</p>
                         <p>github.com/jillii</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" data-aos-anchor="#info">
                         <label class="text-gray text-small">BLOG</label>
                         <p>medium.com/@jillii</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-anchor="#info">
                         <label class="text-gray text-small">SIDE PROJECTS</label>
                         <p>expletive.plumbing</p>
                         <p>cakefactory.party</p>
                         <p>designstatements-llc.com</p>
                     </div>
                 </div>
-                <div class="col col-large">
+                <div id="experience" class="col col-large">
                     <h2 class="subhead">Experience</h2>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#experience">
                         <h3><b>Ideometry /</b> Lead Developer</h3>
                         <label class="text-gray text-small">MAY 2017 - PRESENT, BOSTON MA</label>
                         <p class="text-medium mt-10">Lead dev team in building elegant, scalable  websites for clients. Implement  a standardized workflow for continuous integration for the Ideometry dev team. Mentor junior developers in Git, coding standards, JavaScript,  and other tools and skills. Perform thorough code review.</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#experience" data-aos-delay="100">
                         <h3><b>Isovera /</b> Web Developer</h3>
                         <label class="text-gray text-small">NOVEMBER 2015 - MAY 2017, WALTHAM MA</label>
                         <p class="text-medium mt-10">Improved usability of Isovera's internal website. Provided development support to the development team.</p>
@@ -55,33 +56,37 @@
             </div>
             <p class="divider">&#12336;</p>
             <div class="row">
-                <div class="col col-small">
+                <div id="skills" class="col col-small">
                     <h2 class="subhead">Skills</h2>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#skills">
                         <label class="text-gray text-small">LANGUAGES</label>
                         <p class="list">PHP &#9679; Liquid &#9679; JavaScript &#9679; Jquery &#9679; CSS &#9679; SCSS &#9679; Ruby &#9679; Python</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#skills" data-aos-delay="100">
                         <label class="text-gray text-small">FRAMEWORKS</label>
                         <p class="list">Rails &#9679; Jekyll &#9679; WordPress &#9679; NodeJS</p>
                     </div>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#skills" data-aos-delay="200">
                         <label class="text-gray text-small">TOOLS</label>
                         <p class="list">Git &#9679; Command Line &#9679; Gulp &#9679; Node &#9679; Sublime &#9679; Digitalocean</p>
                     </div>
                 </div>
-                <div class="col col-large">
+                <div id="education" class="col col-large">
                     <h2 class="subhead">Education</h2>
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#education">
                         <h3><b>General Assembly /</b> Back-end Development with RoR</h3>
                         <label class="text-gray text-small">JUNE 2015 - AUGUST 2015,  NEW YORK NY</label>
                     </div>   
-                    <div class="col-group">
+                    <div class="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor="#education" data-aos-delay="100">
                         <h3><b>Brandeis University /</b> B.A. in Computer Science</h3>
                         <label class="text-gray text-small">SEPTEMBER 2011 - MAY 2015, WALTHAM MA</label>
                     </div>   
                 </div>
             </div>
         </div><!-- .wrapper -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+           AOS.init();
+        </script>
     </body>
 </html>
