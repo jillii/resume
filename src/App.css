@@ -25,11 +25,17 @@ p, h3 {
     display: flex;
     gap: 21px;
 }
-.col-small  {
-    flex-basis: 180px;
+
+.col {
+    display: inline-block;
+    vertical-align: top;
 }
-.col-large {
-    flex-basis: calc(100% - 180px);
+.col:nth-of-type(odd)  {
+    width: 180px;
+}
+.col:nth-of-type(even) {
+    width: calc(100% - 180px);
+    padding-left: 21px;
 }
 .info-box p {
     max-width: 300px;
@@ -72,9 +78,13 @@ label {
     text-transform: uppercase;
 }
 h3 {
+    display: inline-block;
     margin-bottom: 2px;
     font-size: inherit;
     font-weight: inherit;
+}
+.breaks {
+    display: block;
 }
 .text-gray {
     color: #666666;
@@ -105,8 +115,18 @@ h3 {
     .row {
         flex-direction: column;
     }
-    .col-small {
-        flex-basis: auto;
+    .col {
+        display: block;
+    }
+    .col:nth-of-type(even) {
+        padding-left: 0;
+    }
+    .col:nth-of-type(even),
+    .col:nth-of-type(odd) {
+        width: 100%;
+    }
+    .col:not(:first-of-type) {
+        margin-top: 33px;
     }
 }
 
