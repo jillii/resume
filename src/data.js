@@ -51,11 +51,11 @@ export const RESUME = [
                 contact: ['201-562-5969', 'jho3292@gmail.com']
             },
             {
-                title: "REPOS",
+                suptext: "REPOS",
                 contact: ['gitlab.com/jillii', 'github.com/jillii']
             },
             {
-                title: "BLOG",
+                suptext: "BLOG",
                 contact: ['medium.com/@jillii']
             }        
         ]
