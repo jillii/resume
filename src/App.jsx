@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className='wrapper'>
-        <Row>
+        <div>
             <div className="col">
                 <p className="page-title">{HEADER.name}</p>
                 <p className="page-subtitle">{HEADER.position}</p>
@@ -22,7 +22,7 @@ function App() {
             <div className="col info-box">
                 <p className="text-gray">{HEADER.about}</p>
             </div>
-        </Row>
+        </div>
         <div className="content">
             {RESUME.map((section, index) => 
                 <>

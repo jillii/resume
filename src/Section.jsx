@@ -12,6 +12,7 @@ export default function Section (props) {
                 content.map((item, index) => 
                     <Item 
                         key={index} 
+                        isList={item.isList}
                         index={index}
                         suptext={item.suptext}
                         anchor={`#${title.toLowerCase()}`}

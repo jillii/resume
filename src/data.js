@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
     position: "Lead Fullstack Engineer",
-    about: "Hello, I'm Jill. I'm a fullstack engineer with 8+ years of experience."
+    about: "Hey I'm Jill ~ a senior fullstack engineer with 8+ years of experience and a strong foundation. Ask me about my side projects."
 }
 export const RESUME = [
     {
@@ -9,11 +9,11 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['PHP', 'Liquid', 'JavaScript / JQuery', 'SASS / SCSS', 'Ruby', 'Python']
+                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby', 'Python']
             },
             {
                 suptext: "FRAMEWORKS",
-                list: ['React', 'Rails', 'Jekyll', 'WordPress', 'NodeJS']
+                list: ['React', 'Rails', 'Jekyll', 'WordPress']
             },
             {
                 suptext: "TOOLS",
@@ -26,21 +26,24 @@ export const RESUME = [
         content: [
             {
                 break: true,
+                isList: true,
                 sectionHead: "Ideometry",
                 title: "Lead Developer",
                 subtitle: "DECEMBER 2021 - PRESENT, BOSTON MA",
-                copy: 'Guide development team through each stage of the development process to ensure quality - emphasizing coding standards and "elegant" code. Implemented method of continuous integration to enable the Ideometry dev team to build websites concurrently. Inspire a culture that is relaxed and informal, but takes pride in meticulous output. Designed professional development program for junior developers to improve fundamental programming skills like Git, SASS, and JavaScript.'
+                copy: 'Spearheaded web projects from conception to delivery, adhering to stringent coding standards and elegant, efficient code. Pioneered implementation of continuous integration, enabling seamless collaboration within the Ideometry dev team. Cultivated fun work environment characterized by a relaxed yet productive culture, fostering a team ethos centered on delivering high quality output. Crafted and executed comprehensive professional development initiative tailored for junior developers, equipping them with essential skills like Git, SASS, and JavaScript to enhance their proficiency and contribution to the team\'s success.'
             },
             {
+                isList: true,
                 title: "Fullstack Developer",
                 subtitle: "MAY 2017 - DECEMBER 2021, BOSTON MA",
-                copy: 'Responsible for all aspects of web projects from inception through completion. Worked closely with design team to develop award winning websites. Emphasized scalable websites, that are easy to use, and flexible enough for future updates.'
+                copy: 'Carried out entire lifecycle of web projects, from server creation to QA testing, ensuring client satisfaction. Collaborated with design team to execute innovative, award-winning websites. Prioritized development of efficient user-friendly sites, emphasizing scalability to meet evolving client needs and industry standards.'
             },
             {
+                isList: true,
                 sectionHead: "Isovera",
                 title: "Web Developer",
                 subtitle: "NOVEMBER 2015 - MAY 2017, WALTHAM MA",
-                copy: "Improved usability of Isovera's internal website. Provided development support to the development team."
+                copy: "Elevated user experience of Isovera's internal website through strategic enhancements and user-centered design principles. Provided crucial development support and technical expertise to bolster development team."
             }
         ]
     },
@@ -67,27 +70,27 @@ export const RESUME = [
                 suptext: "SIDE PROJECTS",
                 sectionHead: "jillii.github.io/guess-the-phrase",
                 title: '"Wheel of Fortune", app',
-                copy: "React app where users are given a random phrase that they must guess one letter at a time (or the whole phrase!)."
+                copy: "Designed, engineered, and launched interactive React application where users guess a random phrase, one letter at a time."
             },
             {
                 sectionHead: "expletive.plumbing",
                 title: "Portfolio site for IDM project !@#$%",
-                copy: 'Original design with multiple "skins". Used plain JavaScript to build media player from scratch, with shuffle play, draggable playback slider, filter play functionality. Built with flat database to ensure lightning fast page load.'
+                copy: 'Original design with multiple "skins". Engineered fully functional media player using plain JavaScript, featuring shuffle play, draggable playback slider, and filter play functionality. Built with flat database structure to ensure lightning fast page load.'
             },
             {
                 sectionHead: "cakefactory.party",
                 title: "Official site for rave-organizing collective",
-                copy: "Designed and built to house information about releases and upcoming shows. Added streaming and live chat to accomodate move to internet based shows during COVID."
+                copy: "Built comprehensive platform housing information about releases and upcoming shows. Integrated video streaming capabilities and live chat functionality to adapt to the shift towards online performances during the COVID."
             },
             {
                 sectionHead: "designstatements-llc.com",
                 title: "Home for Design Statements LLC",
-                copy: "WordPress site with custom theme designed to allude to paint chips used by designers."
+                copy: "Crafted bespoke WordPress site featuring custom theme inspired by paint chips utilized by designers."
             },
             {
                 suptext: "EDUCATION",
                 sectionHead: "General Assembly",
-                title: "Back-end Development with RoR",
+                title: "Backend Development with Ruby on Rails",
                 subtitle: "JUNE 2015 - AUGUST 2015,  NEW YORK NY"
             },
             {

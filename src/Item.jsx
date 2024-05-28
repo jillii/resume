@@ -9,6 +9,7 @@ export default function Item (props) {
     const anchor = props.anchor
     const index = props.index
     const hasBreak = props.hasBreak
+    const isList = props.isList
     const suptext = props.suptext
     const sectionHead = props.sectionHead
     const title = props.title
@@ -32,7 +33,7 @@ export default function Item (props) {
                 <Subtitle value={subtitle} />
             }
             {copy &&
-                <Copy value={copy} />
+                <Copy value={copy} isList={isList} />
             }
             {list &&
                 <List value={list} />

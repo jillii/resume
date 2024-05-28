@@ -6,7 +6,7 @@ body {
     padding-bottom: 51px;
     color: #000000;
     font-family: "Roboto Mono";
-    font-size: 13px;
+    font-size: 12px;
 }
 div {
     display: block;
@@ -15,6 +15,12 @@ div {
 p, h3 {
     margin: 0;
 }
+
+ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
 .wrapper {
     max-width: 900px;
     width: 90%;
@@ -35,10 +41,10 @@ p, h3 {
 }
 .col:nth-of-type(even) {
     width: calc(100% - 180px);
-    padding-left: 21px;
+    padding-left: 12px;
 }
 .info-box p {
-    max-width: 300px;
+    max-width: 330px;
 }
 .page-title {
     font-family: "Press Start 2P";
@@ -53,7 +59,7 @@ p, h3 {
     font-size: 12px;
 }
 .divider {
-    margin: 13px 0;
+    margin: 14px 0;
     font-size: 16px;
     font-weight: 700;
     color: #0000ff;
@@ -61,13 +67,13 @@ p, h3 {
 
 .subhead {
     margin-top: 0;
-    margin-bottom: 14px;
+    margin-bottom: 9px;
     font-size: 10px;
     letter-spacing: 0.6px;
 }
 
 .col-group {
-    margin-top: 12px;
+    margin-top: 9px;
     max-width: 760px;
 }
 
@@ -91,7 +97,8 @@ h3 {
 }
 .text-medium {
     font-size: 11px;
-    letter-spacing: -0.57px;
+    line-height: 13.3px;
+    letter-spacing: -.78px;
 }
 .text-small {
     font-size: 10px;
@@ -106,7 +113,8 @@ h3 {
 }
 
 .list span:not(:first-child):before {
-    content: '\25CF';
+    /* content: '\25CF'; */
+    content: '+';
     position: absolute;
     left: -16px;
 }
@@ -133,5 +141,12 @@ h3 {
 @media screen and (max-width: 560px) {
     .row {
         gap: 33px;
+    }
+}
+
+@media print {
+    .aos-animate {
+        opacity: 1;
+        transform: translateZ(0);
     }
 }
