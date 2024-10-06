@@ -9,7 +9,7 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby', 'Python']
+                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby']
             },
             {
                 suptext: "FRAMEWORKS",
