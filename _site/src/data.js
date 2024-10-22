@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
-    position: "Frontend Engineer",
-    about: "Seasoned Senior Engineer with 8 years of experience spearheading web projects from inception to completion, with a focus on crafting user-friendly, scalable websites. Seeking new opportunity to leverage expertise in JavaScript, SASS, and continuous integration practices."
+    position: "Senior Engineer",
+    about: "Hey I'm Jill ~ a senior engineer specializing in frontend development with 8+ years of experience and a strong foundation. Ask me about my side projects."
 }
 export const RESUME = [
     {
@@ -13,7 +13,7 @@ export const RESUME = [
             },
             {
                 suptext: "FRAMEWORKS",
-                list: ['React', 'Rails', 'Jekyll']
+                list: ['React', 'Rails', 'Jekyll', 'WordPress']
             },
             {
                 suptext: "TOOLS",
@@ -30,13 +30,13 @@ export const RESUME = [
                 sectionHead: "Ideometry",
                 title: "Senior Engineer",
                 subtitle: "DECEMBER 2021 - PRESENT, BOSTON MA",
-                copy: 'Lead web project development, ensuring adherence to strict coding standards and efficient code practices. Implement continuous integration processes to facilitate seamless team collaboration. Promote a productive and enjoyable work environment, contributing to a culture focused on high-quality deliverables. Develop and implement a professional development program for junior developers, focusing on key skills such as Git, SASS, and JavaScript.'
+                copy: 'Spearheaded web projects from conception to delivery, adhering to stringent coding standards and elegant, efficient code. Pioneered implementation of continuous integration, enabling seamless collaboration within the Ideometry dev team. Cultivated fun work environment characterized by a relaxed yet productive culture, fostering a team ethos centered on delivering high quality output. Crafted and executed comprehensive professional development initiative tailored for junior developers, equipping them with essential skills like Git, SASS, and JavaScript to enhance their proficiency and contribution to the team\'s success.'
             },
             {
                 isList: true,
                 title: "Frontend Engineer",
                 subtitle: "MAY 2017 - DECEMBER 2021, BOSTON MA",
-                copy: 'Executed full lifecycle of web development projects, including server setup and QA testing, to meet client expectations. Partnered with the design team to deliver innovative websites that received industry recognition. Focused on developing efficient, user-friendly websites with scalability to adapt to changing client requirements and industry trends.',
+                copy: 'Carried out entire lifecycle of web projects, from server creation to QA testing, ensuring client satisfaction. Collaborated with design team to execute innovative, award-winning websites. Prioritized development of efficient user-friendly sites, emphasizing scalability to meet evolving client needs and industry standards.'
             },
             {
                 isList: true,

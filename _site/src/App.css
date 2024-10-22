@@ -43,7 +43,9 @@ ul {
     width: calc(100% - 180px);
     padding-left: 12px;
 }
-
+.info-box p {
+    max-width: 330px;
+}
 .page-title {
     font-family: "Press Start 2P";
     color: #ea9999;
