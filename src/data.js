@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
-    position: "Frontend Engineer",
-    about: "Seasoned Senior Engineer with 8 years of experience spearheading web projects from inception to completion, with a focus on crafting user-friendly, scalable websites. Seeking new opportunity to leverage expertise in JavaScript, SASS, and continuous integration practices."
+    position: "Senior Engineer",
+    about: "Seasoned Web Engineer with 8 years of experience spearheading web projects from inception to completion, with a focus on scalability and innovative solutions to complex challenges. Two years of experience leading dev team, dedicated to fostering a culture of continuous learning and instilling pride in our work."
 }
 export const RESUME = [
     {
@@ -9,7 +9,7 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby']
+                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby', 'Hubl']
             },
             {
                 suptext: "FRAMEWORKS",
@@ -30,7 +30,7 @@ export const RESUME = [
                 sectionHead: "Ideometry",
                 title: "Senior Engineer",
                 subtitle: "DECEMBER 2021 - PRESENT, BOSTON MA",
-                copy: 'Lead web project development, ensuring adherence to strict coding standards and efficient code practices. Implement continuous integration processes to facilitate seamless team collaboration. Promote a productive and enjoyable work environment, contributing to a culture focused on high-quality deliverables. Develop and implement a professional development program for junior developers, focusing on key skills such as Git, SASS, and JavaScript.'
+                copy: 'Lead web project development, ensuring adherence to strict coding standards and efficient code practices. Implement continuous integration processes to facilitate seamless team collaboration. Promote a productive and enjoyable work environment, contributing to a culture focused on high-quality deliverables. Develop and implement a professional development program for junior developers, focusing on key skills such as Git, command-line usage, and JavaScript.'
             },
             {
                 isList: true,
