@@ -17,6 +17,7 @@ export default function Item (props) {
     const copy = props.copy
     const list = props.list
     const contact = props.contact
+    const link = props.link
 
     return (
         <div className="col-group" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor={anchor} data-aos-delay={index * 200}>
@@ -28,6 +29,9 @@ export default function Item (props) {
             }
             {title &&
                 <Title value={title} />
+            }
+            {link &&
+                <> &bull; <a href={link} target="_blank" className="item-link">Link</a></>
             }
             {subtitle &&
                 <Subtitle value={subtitle} />

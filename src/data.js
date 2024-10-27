@@ -69,23 +69,27 @@ export const RESUME = [
             {
                 suptext: "SIDE PROJECTS",
                 sectionHead: "jillii.github.io/guess-the-phrase",
-                title: '"Wheel of Fortune", app',
-                copy: "Designed, engineered, and launched interactive React application where users guess a random phrase, one letter at a time."
+                title: '"Wheel of Fortune" app',
+                copy: "Designed, engineered, and launched interactive React application where users guess a random phrase, one letter at a time.",
+                link: "https://jillii.github.io/guess-the-phrase/"
             },
             {
                 sectionHead: "expletive.plumbing",
                 title: "Portfolio site for IDM project !@#$%",
-                copy: 'Original design with multiple "skins". Engineered fully functional media player using plain JavaScript, featuring shuffle play, draggable playback slider, and filter play functionality. Built with flat database structure to ensure lightning fast page load.'
+                copy: 'Original design with multiple "skins". Engineered fully functional media player using plain JavaScript, featuring shuffle play, draggable playback slider, and filter play functionality. Built with flat database structure to ensure lightning fast page load.',
+                link: "https://expletive.plumbing"
             },
             {
                 sectionHead: "cakefactory.party",
                 title: "Official site for rave-organizing collective",
-                copy: "Built comprehensive platform housing information about releases and upcoming shows. Integrated video streaming capabilities and live chat functionality to adapt to the shift towards online performances during the COVID."
+                copy: "Built comprehensive platform housing information about releases and upcoming shows. Integrated video streaming capabilities and live chat functionality to adapt to the shift towards online performances during the COVID.",
+                link: "https://cakefactory.party"
             },
             {
                 sectionHead: "designstatements-llc.com",
                 title: "Home for Design Statements LLC",
-                copy: "Crafted bespoke WordPress site featuring custom theme inspired by paint chips utilized by designers."
+                copy: "Crafted bespoke WordPress site featuring custom theme inspired by paint chips utilized by designers.",
+                link: "http://designstatements-llc.com"
             },
             {
                 suptext: "EDUCATION",

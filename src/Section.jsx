@@ -23,6 +23,7 @@ export default function Section (props) {
                         copy={item.copy}
                         list={item.list}
                         contact={item.contact}
+                        link={item.link}
                     />
                 )
             }
