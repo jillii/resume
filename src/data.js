@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
     position: "Senior Engineer",
-    about: "Seasoned Web Engineer with 8 years of experience spearheading web projects from inception to completion, with a focus on scalability and innovative solutions to complex challenges. Two years of experience leading dev team, dedicated to fostering a culture of continuous learning and instilling pride in our work."
+    about: "Seasoned Web Engineer with 9 years of experience spearheading web projects from inception to completion, with a focus on scalability and innovative solutions to complex challenges. Two years of experience leading dev team, dedicated to fostering a culture of continuous learning and instilling pride in our work."
 }
 export const RESUME = [
     {
@@ -9,7 +9,7 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby', 'Hubl']
+                list: ['JavaScript', 'PHP', 'Ruby', 'SASS / SCSS', 'Liquid']
             },
             {
                 suptext: "FRAMEWORKS",
@@ -17,7 +17,7 @@ export const RESUME = [
             },
             {
                 suptext: "TOOLS",
-                list: ['Git', 'Gulp', 'Node']
+                list: ['Git', 'Gulp', 'Node', 'AWS']
             }
         ]
     },
@@ -29,7 +29,7 @@ export const RESUME = [
                 isList: true,
                 sectionHead: "Ideometry",
                 title: "Senior Engineer",
-                subtitle: "DECEMBER 2021 - PRESENT, BOSTON MA",
+                subtitle: "DECEMBER 2021 - MARCH 2025, BOSTON MA",
                 copy: 'Lead web project development, ensuring adherence to strict coding standards and efficient code practices. Implement continuous integration processes to facilitate seamless team collaboration. Promote a productive and enjoyable work environment, contributing to a culture focused on high-quality deliverables. Develop and implement a professional development program for junior developers, focusing on key skills such as Git, command-line usage, and JavaScript.'
             },
             {
