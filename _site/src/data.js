@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
     position: "Senior Engineer",
-    about: "Hey I'm Jill ~ a senior engineer specializing in frontend development with 8+ years of experience and a strong foundation. Ask me about my side projects."
+    about: "Hey I'm Jill ~ a senior engineer specializing in frontend development with 9+ years of experience and a strong foundation. Ask me about my side projects."
 }
 export const RESUME = [
     {
@@ -9,15 +9,15 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['JavaScript', 'PHP', 'Liquid', 'SASS / SCSS', 'Ruby']
+                list: ['JavaScript', 'PHP', 'Ruby', 'SASS / SCSS', 'Liquid']
             },
             {
                 suptext: "FRAMEWORKS",
-                list: ['React', 'Rails', 'Jekyll', 'WordPress']
+                list: ['React', 'Rails', 'Jekyll', 'WordPress]
             },
             {
                 suptext: "TOOLS",
-                list: ['Git', 'Gulp', 'Node']
+                list: ['Git', 'Gulp', 'Node', 'AWS']
             }
         ]
     },
@@ -29,7 +29,7 @@ export const RESUME = [
                 isList: true,
                 sectionHead: "Ideometry",
                 title: "Senior Engineer",
-                subtitle: "DECEMBER 2021 - PRESENT, BOSTON MA",
+                subtitle: "DECEMBER 2021 - MARCH 2025, BOSTON MA",
                 copy: 'Spearheaded web projects from conception to delivery, adhering to stringent coding standards and elegant, efficient code. Pioneered implementation of continuous integration, enabling seamless collaboration within the Ideometry dev team. Cultivated fun work environment characterized by a relaxed yet productive culture, fostering a team ethos centered on delivering high quality output. Crafted and executed comprehensive professional development initiative tailored for junior developers, equipping them with essential skills like Git, SASS, and JavaScript to enhance their proficiency and contribution to the team\'s success.'
             },
             {
