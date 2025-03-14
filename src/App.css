@@ -5,8 +5,9 @@ body {
     padding: 51px 0 33px;
     padding-bottom: 51px;
     color: #000000;
-    font-family: "Roboto Mono";
+    font-family: "system-ui";
     font-size: 12px;
+    letter-spacing: 1.1px;
 }
 div {
     display: block;
@@ -38,10 +39,10 @@ ul {
 }
 .col:nth-of-type(odd)  {
     width: 180px;
+    padding-right: 39px;
 }
 .col:nth-of-type(even) {
     width: calc(100% - 180px);
-    padding-left: 12px;
 }
 
 .page-title {
@@ -67,7 +68,6 @@ ul {
     margin-top: 0;
     margin-bottom: 9px;
     font-size: 10px;
-    letter-spacing: 0.6px;
 }
 
 .col-group {
@@ -96,7 +96,6 @@ h3 {
 .text-medium {
     font-size: 11px;
     line-height: 13.3px;
-    letter-spacing: -.78px;
 }
 .text-small {
     font-size: 10px;

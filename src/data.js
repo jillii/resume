@@ -9,7 +9,7 @@ export const RESUME = [
         content: [
             {
                 suptext: "LANGUAGES",
-                list: ['JavaScript', 'PHP', 'Ruby', 'SASS / SCSS', 'Liquid']
+                list: ['JavaScript', 'PHP', 'Ruby', 'Liquid', 'CSS/ SASS / SCSS', 'HTML']
             },
             {
                 suptext: "FRAMEWORKS",
@@ -17,7 +17,7 @@ export const RESUME = [
             },
             {
                 suptext: "TOOLS",
-                list: ['Git', 'Gulp', 'Node', 'AWS']
+                list: ['Git', 'Gulp', 'Webpack', 'Node', 'AWS']
             }
         ]
     },
@@ -30,7 +30,7 @@ export const RESUME = [
                 sectionHead: "Ideometry",
                 title: "Senior Engineer",
                 subtitle: "DECEMBER 2021 - MARCH 2025, BOSTON MA",
-                copy: 'Lead web project development, ensuring adherence to strict coding standards and efficient code practices. Implement continuous integration processes to facilitate seamless team collaboration. Promote a productive and enjoyable work environment, contributing to a culture focused on high-quality deliverables. Develop and implement a professional development program for junior developers, focusing on key skills such as Git, command-line usage, and JavaScript.'
+                copy: 'Led web project development, ensured adherence to strict coding standards and efficient code practices. Implemented continuous integration processes to facilitate seamless team collaboration. Promoted a productive and enjoyable work environment, with a culture focused on high-quality deliverables. Developed and implemented a professional development program for junior developers, focusing on key skills such as Git, command-line usage, and JavaScript.'
             },
             {
                 isList: true,
@@ -70,25 +70,31 @@ export const RESUME = [
                 suptext: "SIDE PROJECTS",
                 sectionHead: "jillii.github.io/guess-the-phrase",
                 title: '"Wheel of Fortune" app',
-                copy: "Designed, engineered, and launched interactive React application where users guess a random phrase, one letter at a time.",
+                copy: "Interactive React application where users guess a random phrase, one letter at a time.",
                 link: "https://jillii.github.io/guess-the-phrase/"
+            },
+            {
+                sectionHead: "jillii.github.io/resume",
+                title: "React app 'resume'",
+                copy: 'Yes, this resume is a React app, (although you might be viewing the PDF version). Reactified resume for organization and easy updates.',
+                link: "https://jillii.github.io/resume/"
             },
             {
                 sectionHead: "expletive.plumbing",
                 title: "Portfolio site for IDM project !@#$%",
-                copy: 'Original design with multiple "skins". Engineered fully functional media player using plain JavaScript, featuring shuffle play, draggable playback slider, and filter play functionality. Built with flat database structure to ensure lightning fast page load.',
+                copy: 'Original design with multiple "skins". Fully functional media player built with plain JavaScript, featuring shuffle play, draggable playback slider, and filter play functionality. Built with flat database structure to ensure lightning fast page load.',
                 link: "https://expletive.plumbing"
             },
             {
                 sectionHead: "cakefactory.party",
                 title: "Official site for rave-organizing collective",
-                copy: "Built comprehensive platform housing information about releases and upcoming shows. Integrated video streaming capabilities and live chat functionality to adapt to the shift towards online performances during the COVID.",
+                copy: "Comprehensive platform housing information about releases and upcoming shows. I added video streaming capabilities and live chat functionality to adapt to the shift towards online performances during the COVID.",
                 link: "https://cakefactory.party"
             },
             {
                 sectionHead: "designstatements-llc.com",
                 title: "Home for Design Statements LLC",
-                copy: "Crafted bespoke WordPress site featuring custom theme inspired by paint chips utilized by designers.",
+                copy: "Bespoke WordPress site featuring custom theme inspired by paint chips utilized by designers.",
                 link: "http://designstatements-llc.com"
             },
             {

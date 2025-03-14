@@ -38,10 +38,10 @@ ul {
 }
 .col:nth-of-type(odd)  {
     width: 180px;
+    padding-right: 21px;
 }
 .col:nth-of-type(even) {
     width: calc(100% - 180px);
-    padding-left: 12px;
 }
 .info-box p {
     max-width: 330px;
