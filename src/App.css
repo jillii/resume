@@ -37,6 +37,9 @@ ul {
     display: inline-block;
     vertical-align: top;
 }
+.col:has(.page-title) {
+    padding-right: 0 !important;
+}
 .col:nth-of-type(odd)  {
     width: 180px;
     padding-right: 39px;
@@ -47,7 +50,9 @@ ul {
 
 .page-title {
     font-family: "Press Start 2P";
-    color: #ea9999;
+    color: transparent;
+    background: linear-gradient(#edc1ed,#89a1e2);
+    background-clip: text;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -61,7 +66,7 @@ ul {
     margin: 14px 0;
     font-size: 16px;
     font-weight: 700;
-    color: #0000ff;
+    color: #646cff;
 }
 
 .subhead {

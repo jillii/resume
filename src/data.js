@@ -1,7 +1,7 @@
 export const HEADER = {
     name: "Jill Hoenig",
     position: "Senior Engineer",
-    about: "Seasoned Web Engineer with 9 years of experience spearheading web projects from inception to completion, with a focus on scalability and innovative solutions to complex challenges. Two years of experience leading dev team, dedicated to fostering a culture of continuous learning and instilling pride in our work."
+    about: "Seasoned Web Engineer with 10 years of industry experience spearheading web projects from inception to completion, with a focus on scalability and innovative solutions to complex challenges. Two years of experience leading dev team, dedicated to fostering a culture of continuous learning and instilling pride in our work."
 }
 export const RESUME = [
     {
