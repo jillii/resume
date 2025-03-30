@@ -1,7 +1,11 @@
+const d = new Date();
+let year = d.getFullYear();
+const experience = year - 2015
+
 export const HEADER = {
     name: "Jill Hoenig",
     position: "Senior Engineer",
-    about: "Senior Web Engineer with 10 years experience leading web projects from inception to completion, focusing on scalability and innovative solutions to complex challenges. Two years experience leading dev teams. Committed to fostering a culture of continuous learning and instilling pride in our work."
+    about: `Senior Web Engineer with ${experience} years experience leading web projects from inception to completion, focusing on scalability and innovative solutions to complex challenges. Two years experience leading dev teams. Committed to fostering a culture of continuous learning and instilling pride in our work.`
 }
 export const RESUME = [
     {
@@ -76,7 +80,7 @@ export const RESUME = [
             {
                 sectionHead: "jillii.github.io/resume",
                 title: "React app resume",
-                copy: 'Yes, this resume is a React app (although you might be viewing the PDF version). Reactified resume for organization and easy updates.',
+                copy: 'Yes, this resume is a React app (although you might be viewing the PDF version). Reactified resume for organization and easy updates. Automatically calculates years of experience by comparing current year with year of first experience.',
                 link: "https://jillii.github.io/resume/"
             },
             {
