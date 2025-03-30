@@ -56,6 +56,7 @@ ul {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.3px;
+    color: transparent;
 }
 .page-subtitle {
     max-width: 230px;
@@ -150,5 +151,8 @@ h3 {
     .aos-animate {
         opacity: 1;
         transform: translateZ(0);
+    }
+    .page-title {
+        color: #edc1ed;
     }
 }
