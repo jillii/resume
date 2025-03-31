@@ -49,6 +49,7 @@ ul {
 }
 
 .page-title {
+    max-width: 200px;
     font-family: "Press Start 2P";
     color: transparent;
     background: linear-gradient(#edc1ed,#89a1e2);
