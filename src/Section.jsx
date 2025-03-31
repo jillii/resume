@@ -24,6 +24,7 @@ export default function Section (props) {
                         list={item.list}
                         contact={item.contact}
                         link={item.link}
+                        isLink={item.isLink}
                     />
                 )
             }

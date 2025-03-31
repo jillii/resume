@@ -38,7 +38,7 @@ export const RESUME = [
             },
             {
                 isList: true,
-                title: "Frontend Engineer",
+                title: "Founding Engineer",
                 subtitle: "MAY 2017 - DECEMBER 2021, BOSTON MA - REMOTE",
                 copy: 'Executed the full lifecycle of website projects, including server setup and QA testing, to meet client expectations. Collaborated with design team to deliver innovative websites that garnered industry recognition, including the CUNA Diamond Award winning Quorum Learning Hub. Focused on creating efficient, user-friendly websites with scalability to adapt to evolving client needs and industry trends.',
             },
@@ -58,13 +58,20 @@ export const RESUME = [
                 contact: ['(201) 562-5969', 'hello@jill.digital']
             },
             {
+                suptext: "PORTFOLIO",
+                contact: ['jill.digital'],
+                isLink: true
+            },
+            {
                 suptext: "REPOS",
-                contact: ['gitlab.com/jillii', 'github.com/jillii']
+                contact: ['github.com/jillii', 'gitlab.com/jillii'],
+                isLink: true
             },
             {
                 suptext: "BLOG",
-                contact: ['medium.com/@jillii']
-            }        
+                contact: ['medium.com/@jillii'],
+                isLink: true
+            }
         ]
     },
     {

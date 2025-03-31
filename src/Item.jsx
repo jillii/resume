@@ -17,6 +17,7 @@ export default function Item (props) {
     const copy = props.copy
     const list = props.list
     const contact = props.contact
+    const isLink = props.isLink
     const link = props.link
 
     return (
@@ -43,7 +44,7 @@ export default function Item (props) {
                 <List value={list} />
             }
             {contact &&
-                <Contact value={contact} />
+                <Contact value={contact} isLink={isLink} />
             }
         </div>
     )

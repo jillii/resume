@@ -122,6 +122,12 @@ h3 {
     left: -16px;
 }
 
+.contact {
+    display: block;
+    color: #111;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: column;
